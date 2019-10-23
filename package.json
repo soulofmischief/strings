@@ -15,6 +15,7 @@
   },
   "scripts": {
     "build": "babel src -d lib",
+    "prepublishOnly": "npm run build --scripts-prepend-node-path",
     "test": "test"
   },
   "repository": {
