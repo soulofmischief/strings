@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@soulofmischief/regex": "^0.1.2",
+    "nanoid": "^2.1.5"
+  },
+  "name": "@soulofmischief/strings",
+  "description": "A collection of useful methods which operate on strings",
+  "version": "0.1.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-flow": "^7.0.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulofmischief/strings.git"
+  },
+  "keywords": [
+    "strings"
+  ],
+  "author": "soulofmischief",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soulofmischief/strings/issues"
+  },
+  "homepage": "https://github.com/soulofmischief/strings#readme"
+}
