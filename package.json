@@ -5,7 +5,7 @@
   },
   "name": "@soulofmischief/strings",
   "description": "A collection of useful methods which operate on strings",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib",
   "devDependencies": {
     "@babel/core": "^7.6.4",
