@@ -15,7 +15,7 @@ module.exports = function ( api ) {
     ],
 
     plugins = [
-      //'@babel/plugin-proposal-export-namespace-from',
+      '@babel/plugin-proposal-export-namespace-from',
       //'@babel/plugin-proposal-optional-chaining',
       //'@babel/plugin-transform-destructuring',
       '@babel/plugin-transform-runtime',
