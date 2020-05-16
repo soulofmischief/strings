@@ -1,7 +1,7 @@
 {
   "name": "@soulofmischief/strings",
   "description": "A collection of useful methods which operate on strings",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "lib",
   "dependencies": {
     "@babel/runtime": "^7.9.6",
