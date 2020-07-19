@@ -9,7 +9,7 @@ const
 
 o.spec( 'appendForwardSlash', () => {
   o( 'appends if missing', () => {
-    o( appendForwardSlash( str1 )).equals( `${str1}/`)
+    o( appendForwardSlash( str1 )).equals( `${str1}/` )
   })
 
   o( "doesn't append if present", () => {
