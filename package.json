@@ -3,6 +3,19 @@
   "description": "A collection of useful methods which operate on strings",
   "version": "0.3.0",
   "main": "lib",
+  "license": "MIT",
+  "author": "soulofmischief",
+  "bugs": {
+    "url": "https://github.com/soulofmischief/strings/issues"
+  },
+  "homepage": "https://github.com/soulofmischief/strings#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulofmischief/strings.git"
+  },
+  "keywords": [
+    "strings"
+  ],
   "dependencies": {
     "@babel/runtime": "^7.9.6",
     "@soulofmischief/regex": "^0.1.3",
@@ -22,18 +35,5 @@
     "publish:minor": "npm run build && npm version minor && cp -f package.json lib && npm publish --access public lib",
     "publish:major": "npm run build && npm version major && cp -f package.json lib && npm publish --access public lib",
     "test": "babel-node node_modules/.bin/ospec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/soulofmischief/strings.git"
-  },
-  "keywords": [
-    "strings"
-  ],
-  "author": "soulofmischief",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/soulofmischief/strings/issues"
-  },
-  "homepage": "https://github.com/soulofmischief/strings#readme"
+  }
 }
