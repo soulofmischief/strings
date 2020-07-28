@@ -2,7 +2,8 @@
 
 
 export { appendForwardSlash } from './appendForwardSlash'
-export { prependForwardSlash } from './prependForwardSlash'
+export { getFileExtension } from './getFileExtension'
 export { getNumericalHash } from './getNumericalHash'
+export { prependForwardSlash } from './prependForwardSlash'
 export { removeForwardSlashPrefix } from './removeForwardSlashPrefix'
 export { shortID } from './shortID'
