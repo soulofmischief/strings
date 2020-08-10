@@ -1,7 +1,7 @@
 {
   "name": "@soulofmischief/strings",
   "description": "A collection of useful methods which operate on strings",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "main": "lib",
   "license": "MIT",
   "author": "soulofmischief",
