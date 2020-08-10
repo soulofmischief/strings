@@ -1,6 +1,7 @@
 // @flow strict
 
 
+export { alphaNumericalSet } from './alphaNumericalSet'
 export { appendForwardSlash } from './appendForwardSlash'
 export { getFileExtension } from './getFileExtension'
 export { getNumericalHash } from './getNumericalHash'
