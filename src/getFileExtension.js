@@ -1,10 +1,14 @@
-// @flow strict
+
+
+const
+  hasExtension = /[.]/,
+  lastExtension = /[^.]+$/
 
 
 export function getFileExtension( filename: string ) {
   return (
-  ( /[.]/.exec( filename ))
-    ? /[^.]+$/.exec( filename )[0]
+  ( hasExtension.exec( filename ))
+    ? lastExtension.exec( filename )[0]
     : ''
   )
 }
