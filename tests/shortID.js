@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { shortID } from '../src'
+import { shortID } from '../index.js'
 
 
 const

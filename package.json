@@ -2,7 +2,9 @@
   "name": "@soulofmischief/strings",
   "description": "A collection of useful methods which operate on strings",
   "version": "0.6.1",
-  "main": "lib",
+  "type": "module",
+  "packageManager": "yarn@3.1.0",
+  "main": "index.js",
   "license": "MIT",
   "author": "soulofmischief",
   "bugs": {
@@ -17,24 +19,13 @@
     "strings"
   ],
   "dependencies": {
-    "@babel/runtime": "^7.11.2",
-    "@soulofmischief/regex": "^0.2.0",
+    "@soulofmischief/regex": "^0.3.0",
     "nanoid": "^3.1.12"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.4",
-    "@babel/plugin-proposal-export-namespace-from": "^7.10.4",
-    "@babel/plugin-transform-runtime": "^7.11.0",
-    "@babel/preset-env": "^7.11.0",
-    "@babel/preset-flow": "^7.10.4",
     "ospec": "^4.1.1"
   },
   "scripts": {
-    "build": "babel src -d lib",
-    "publish:patch": "npm run build && npm version patch && cp -f package.json lib && npm publish --access public lib",
-    "publish:minor": "npm run build && npm version minor && cp -f package.json lib && npm publish --access public lib",
-    "publish:major": "npm run build && npm version major && cp -f package.json lib && npm publish --access public lib",
-    "test": "babel-node node_modules/.bin/ospec"
+    "test": "ospec"
   }
 }

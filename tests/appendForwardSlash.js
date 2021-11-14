@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { appendForwardSlash } from '../src'
+import { appendForwardSlash } from '../index.js'
 
 
 const

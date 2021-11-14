@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { capitalize } from '../src'
+import { capitalize } from '../index.js'
 
 const n = 123
 

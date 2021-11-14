@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { getFileExtension } from '../src'
+import { getFileExtension } from '../index.js'
 
 
 o.spec( 'getFileExtension', () => {

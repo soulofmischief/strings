@@ -1,5 +1,3 @@
-// @flow strict
-
 
 export function getNumericalHash( string = '' ) {
   // Initialize hash value

@@ -1,5 +1,6 @@
 import o from 'ospec'
-import { isID } from '../src'
+import { isID } from '../index.js'
+
 
 const
   id = '1234567890abcdef',

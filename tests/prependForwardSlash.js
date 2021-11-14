@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { prependForwardSlash } from '../src'
+import { prependForwardSlash } from '../index.js'
 
 
 const
