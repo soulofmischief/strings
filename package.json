@@ -1,7 +1,7 @@
 {
   "name": "@soulofmischief/strings",
   "description": "A collection of useful methods which operate on strings",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "type": "module",
   "packageManager": "yarn@3.1.0",
   "main": "index.js",
